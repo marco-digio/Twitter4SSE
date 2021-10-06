@@ -1,9 +1,20 @@
 # Twitter4SSE
-Official repository of "Exploiting Twitter as Source of Large Corpora of Weakly Similar Pairs for Semantic Sentence Embeddings" (EMNLP2021)
+Official repository of [Exploiting Twitter as Source of Large Corpora of Weakly Similar Pairs for Semantic Sentence Embeddings](https://arxiv.org/abs/2110.02030) (EMNLP2021)
 
 ## Citing 
 
-If you find this repository helpful, please cite our publication (link and BibTeX available after EMNLP2021).
+If you find this repository helpful, please cite our publication.
+
+```
+@misc{digiovanni2021exploiting,
+      title={Exploiting Twitter as Source of Large Corpora of Weakly Similar Pairs for Semantic Sentence Embeddings}, 
+      author={Marco Di Giovanni and Marco Brambilla},
+      year={2021},
+      eprint={2110.02030},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 ## Instructions
 
