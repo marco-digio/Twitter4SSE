@@ -48,7 +48,7 @@ Run `generate_direct_evaluation_dataset.py reply` to generate **Direct Reply (DR
 Run `generate_co_evaluation_dataset.py quote` to generate **Co-Quote (CQ)** evaluation benchmark.
 Run `generate_co_evaluation_dataset.py reply` to generate **Co-Reply (CR)** evaluation benchmark.
 
-Finally run `remove_evaluation.py` to generate the 4 FINAL datasets without tweets used on the evaluation benchmarks. 
+Finally run `remove_evaluation.py` to generate the 4 FINAL datasets without tweets used on the evaluation benchmarks and the `all` dataset as 250000 random data from each of the 4 previous datasets. 
 
 ### Train a model
 
