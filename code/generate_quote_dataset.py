@@ -70,4 +70,4 @@ df = df.drop_duplicates(subset='text1_clean', keep='first')
 df = df.drop(['text1', 'text2'], axis=1)
 df = df.rename(columns={'text1_clean':'text1', 'text2_clean':'text2'})
 
-df[['id1', 'id2', 'text1', 'text2']].to_csv('Data/dataset_quote.csv', sep='\t')
+df[['id1', 'id2', 'text1', 'text2']].to_csv('Data/dataset_quote.csv', sep='\t', index=None)

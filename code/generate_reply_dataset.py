@@ -91,4 +91,4 @@ df2 = df2.drop_duplicates(subset='text2_clean', keep='first')
 df2 = df2.drop_duplicates(subset='text1_clean', keep='first')
 df2 = df2.rename(columns={'id_repl':'id1', 'id_tw':'id2', 'text1_clean':'text1', 'text2_clean':'text2'})
 
-df2[['id1', 'id2', 'text1', 'text2']].to_csv('Data/dataset_reply.csv', sep='\t')
+df2[['id1', 'id2', 'text1', 'text2']].to_csv('Data/dataset_reply.csv', sep='\t', index=None)
