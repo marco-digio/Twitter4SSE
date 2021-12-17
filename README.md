@@ -6,13 +6,17 @@ Official repository of [Exploiting Twitter as Source of Large Corpora of Weakly 
 If you find this repository helpful, please cite our publication.
 
 ```
-@misc{digiovanni2021exploiting,
-      title={Exploiting Twitter as Source of Large Corpora of Weakly Similar Pairs for Semantic Sentence Embeddings}, 
-      author={Marco Di Giovanni and Marco Brambilla},
-      year={2021},
-      eprint={2110.02030},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{di-giovanni-brambilla-2021-exploiting,
+    title = "Exploiting {T}witter as Source of Large Corpora of Weakly Similar Pairs for Semantic Sentence Embeddings",
+    author = "Di Giovanni, Marco  and
+      Brambilla, Marco",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.780",
+    pages = "9902--9910",
 }
 ```
 
